@@ -1,4 +1,5 @@
 # pip install tkinter
+#using tkinter as tk for messagebox
 import tkinter as tk
 import tkinter.messagebox
 from tkinter.constants import SUNKEN
@@ -28,6 +29,7 @@ def clear():
 	entry.delete(0, tk.END)
 
 
+#buttons
 button_1 = tk.Button(master=frame, text='1', padx=15,
 					pady=5, width=3, command=lambda: myclick(1))
 button_1.grid(row=1, column=0, pady=2)
